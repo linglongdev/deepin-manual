@@ -46,7 +46,7 @@ sources:
     commit: 77a248f1c7bc6d7fa2d7ba08919e500a1c479bfa
     
   # linglong:gen_deb_source sources loongarch64 https://pools.uniontech.com/desktop-professional eagle/1070 main
-  # linglong:gen_deb_source install libdtkwidget-dev, libdtkgui-dev, qtwebengine5-dev, libqt5webchannel5-dev, libsass-dev, libqt5sql5-sqlite, libgtest-dev, libgmock-dev, systemd-dev
+  # linglong:gen_deb_source install libdtkwidget-dev, libdtkgui-dev, qtwebengine5-dev, libqt5webchannel5-dev, libsass-dev, libqt5sql5-sqlite, libgtest-dev, libgmock-dev, systemd
   - kind: file
     url: https://pools.uniontech.com/desktop-professional/pool/main/a/adduser/adduser_3.118+sign_all.deb
     digest: 08b8e8e231876cb8a053bd091e64837d9fe706ac029b5be401ddb79ab03a0cff
