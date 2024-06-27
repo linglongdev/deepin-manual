@@ -12,11 +12,11 @@ package:
   description: |
     manual for deepin os.
 
-base: org.deepin.foundation/2405.0.0
-runtime: org.deepin.Runtime/2405.0.0
+base: org.deepin.foundation/23.0.0
+runtime: org.deepin.Runtime/23.0.1
 
 command:
-  - deepin-manual
+  - dman
 
 build: |
   cat /var/lib/dpkg/status|grep "^Package: " > $PREFIX/packages.list
